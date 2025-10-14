@@ -6,7 +6,6 @@ from hyperliquid.info import Info
 
 
 
-
 def main():
     address, info, exchange = utils.setup(base_url=constants.MAINNET_API_URL, skip_ws=True)
 
