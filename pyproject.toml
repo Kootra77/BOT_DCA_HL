@@ -1,0 +1,17 @@
+[project]
+name = "bot-dca-hl"
+version = "0.1.0"
+description = "Bot Achat BTC en DCA sur hyperliquid"
+authors = [
+    {name = "Maxime Delisée",email = "maxime.delisee@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+dependencies = [
+    "hyperliquid-python-sdk @ git+https://github.com/hyperliquid-dex/hyperliquid-python-sdk.git"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
